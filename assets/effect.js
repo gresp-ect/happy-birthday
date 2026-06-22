@@ -1,8 +1,9 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
-	// Click anywhere on intro screen to start
-	$('#intro').click(function(){
+	// Click start button on intro screen to begin
+	$('#intro_start').click(function(e){
+		e.stopPropagation();
 		$('#turn_on').click();
 	});
 });
