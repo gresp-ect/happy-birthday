@@ -1267,6 +1267,9 @@ audio {
 /* Fix: navbar height stability - prevent border jumping when buttons appear/disappear */
 .navbar-fixed-bottom {
     min-height: 70px;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 .navbar-fixed-bottom .row {
     position: relative;
@@ -1416,7 +1419,8 @@ body {
         right: 0;
         min-height: 70px;
         padding-bottom: env(safe-area-inset-bottom, 20px);
-        background-color: rgba(0, 0, 0, 0.7);
+        background: transparent !important;
+        border: none !important;
         padding-top: 10px;
     }
     .navbar-fixed-bottom .row {
