@@ -1,6 +1,10 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
+	// Click anywhere on intro screen to start
+	$('#intro').click(function(){
+		$('#turn_on').click();
+	});
 });
 $('document').ready(function(){
 		// Responsive: calculate balloon spacing based on screen width
