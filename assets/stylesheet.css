@@ -1317,6 +1317,9 @@ audio {
 #play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
 	display: none;
 }
+#turn_on {
+	display: none;
+}
 
 /* Fix: navbar height stability - prevent border jumping when buttons appear/disappear */
 .navbar-fixed-bottom {
