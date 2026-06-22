@@ -37,6 +37,9 @@ $('document').ready(function(){
 		});
 
 	$('#turn_on').click(function(){
+		// Fade out intro screen
+		$('#intro').css('opacity', '0');
+		setTimeout(function() { $('#intro').hide(); }, 1000);
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');

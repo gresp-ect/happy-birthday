@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - img [ref=e9]
+  - generic [ref=e10]:
+    - img [ref=e26]
+    - button "开始" [ref=e32] [cursor=pointer]

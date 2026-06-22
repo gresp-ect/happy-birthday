@@ -1,0 +1,19 @@
+[     464ms] [LOG] rendered http://localhost:8081/assets/cake.less successfully. @ http://localhost:8081/assets/less.min.js:12
+[     466ms] [LOG] css for http://localhost:8081/assets/cake.less generated in 43ms @ http://localhost:8081/assets/less.min.js:12
+[     466ms] [LOG] less has finished. css generated in 43ms @ http://localhost:8081/assets/less.min.js:12
+[     655ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8081/:0
+[     660ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/favicon.ico:0
+[   31156ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/favicon.ico:0
+[  236082ms] [LOG] rendered http://localhost:8081/assets/cake.less successfully. @ http://localhost:8081/assets/less.min.js:12
+[  236084ms] [LOG] css for http://localhost:8081/assets/cake.less generated in 24ms @ http://localhost:8081/assets/less.min.js:12
+[  236084ms] [LOG] less has finished. css generated in 24ms @ http://localhost:8081/assets/less.min.js:12
+[  236179ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8081/:0
+[  246215ms] [LOG] rendered http://localhost:8081/assets/cake.less successfully. @ http://localhost:8081/assets/less.min.js:12
+[  246216ms] [LOG] css for http://localhost:8081/assets/cake.less generated in 7ms @ http://localhost:8081/assets/less.min.js:12
+[  246216ms] [LOG] less has finished. css generated in 7ms @ http://localhost:8081/assets/less.min.js:12
+[  246254ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8081/:0
+[  256172ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/favicon.ico:0
+[  259223ms] [LOG] rendered http://localhost:8081/assets/cake.less successfully. @ http://localhost:8081/assets/less.min.js:12
+[  259224ms] [LOG] css for http://localhost:8081/assets/cake.less generated in 7ms @ http://localhost:8081/assets/less.min.js:12
+[  259224ms] [LOG] less has finished. css generated in 8ms @ http://localhost:8081/assets/less.min.js:12
+[  259256ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8081/:0

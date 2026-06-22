@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - heading [level=2] [ref=e33]
+  - heading [level=2] [ref=e34]
+  - heading [level=2] [ref=e35]
+  - heading [level=2] [ref=e36]
+  - heading [level=2] [ref=e37]
+  - heading [level=2] [ref=e38]
+  - heading [level=2] [ref=e39]
+  - img [ref=e9]
+  - generic [ref=e10]:
+    - img [ref=e26]
+    - generic [ref=e31]:
+      - button "音乐" [ref=e49] [cursor=pointer]
+      - button "颜色" [ref=e50] [cursor=pointer]
+      - button "好像少点东西" [ref=e51] [cursor=pointer]
+      - button "蛋糕？" [ref=e52] [cursor=pointer]
+      - button "蜡烛？" [ref=e53] [cursor=pointer]
+      - button "给你的话" [ref=e54] [cursor=pointer]

@@ -1,0 +1,5 @@
+- generic [ref=e1]:
+  - img [ref=e9]
+  - generic [ref=e10]:
+    - img [ref=e26]
+    - button "蛋糕？" [active] [ref=e36] [cursor=pointer]

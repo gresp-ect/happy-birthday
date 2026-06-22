@@ -1,0 +1,10 @@
+- generic [active] [ref=e15]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: ♥
+    - heading "珂珂" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 有一份小惊喜给你
+    - generic [ref=e6]: ↓
+  - img [ref=e14]
+  - generic [ref=e16]:
+    - img [ref=e32]
+    - button "开始" [ref=e38] [cursor=pointer]

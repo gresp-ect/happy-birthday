@@ -1,0 +1,4 @@
+[      41ms] [LOG] rendered http://localhost:8081/assets/cake.less successfully. @ http://localhost:8081/assets/less.min.js:12
+[      42ms] [LOG] css for http://localhost:8081/assets/cake.less generated in 13ms @ http://localhost:8081/assets/less.min.js:12
+[      43ms] [LOG] less has finished. css generated in 13ms @ http://localhost:8081/assets/less.min.js:12
+[      70ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8081/:0

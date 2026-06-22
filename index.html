@@ -32,11 +32,26 @@
     <link rel="stylesheet" type="text/css" href="assets/loading.css">
     <link rel="stylesheet/less" href="assets/cake.less">
     <script src="assets/less.min.js"></script>
+    <link rel="stylesheet" href="assets/intro.css">
     <script src="config.js"></script>
+    <script>
+        // Inject intro animations via JS to avoid less.js interference
+        var introStyle = document.createElement('style');
+        introStyle.textContent = '@keyframes introHeartBeat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}@keyframes introBounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-15px)}60%{transform:translateY(-8px)}}';
+        document.head.appendChild(introStyle);
+    </script>
 </head>
 
 <body>
 <div class="loading"></div>
+<div id="intro" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:#000;z-index:10000;transition:opacity 1s ease;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;width:80%;">
+        <div style="font-size:60px;color:#e74c3c;animation:introHeartBeat 1.5s infinite;margin-bottom:20px;">♥</div>
+        <h1 style="font-size:48px;font-weight:300;letter-spacing:12px;margin-bottom:20px;color:#f5576c;">珂珂</h1>
+        <p style="font-size:16px;color:rgba(255,255,255,0.5);letter-spacing:4px;margin-bottom:40px;">有一份小惊喜给你</p>
+        <div style="font-size:24px;color:rgba(255,255,255,0.4);animation:introBounce 2s infinite;">↓</div>
+    </div>
+</div>
 <audio class="song" controls loop>
     <source src="assets/hbd.mp3"></source>
     Your browser isn't invited for super fun audio time.

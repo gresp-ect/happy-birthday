@@ -1,0 +1,15 @@
+- generic [ref=e1]:
+  - heading [level=2] [ref=e48]
+  - heading [level=2] [ref=e49]
+  - heading [level=2] [ref=e50]
+  - heading [level=2] [ref=e51]
+  - heading [level=2] [ref=e52]
+  - heading [level=2] [ref=e53]
+  - heading [level=2] [ref=e54]
+  - img [ref=e9]
+  - generic [ref=e10]:
+    - img [ref=e26]
+    - paragraph [ref=e58]:
+      - text: 亲爱的珂珂
+      - img [ref=e59]
+    - button "给你的话" [active] [ref=e55] [cursor=pointer]
